@@ -10,7 +10,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 1.7;
-  color: #777777;
+  color: #2A2178;
   color: #7f7f7f;
   background: #fff;
   height: 100%;
@@ -55,6 +55,11 @@ align-items: center;
 }
 
 nav {
+  color:2A2178;
+  border: 2px;
+  border-style: solid;
+  background-color: F6F632;
+}
   margin-left: 20pt;
 }
 
@@ -70,27 +75,47 @@ section h1 {
 
 article {
   border: 1px;
+  border-style: solid;
+  border-color: blue;
+  padding: 10pt;
+  margin: 10pt;
+}
+  border: 1px;
 }
 
 article header {
-  font-style: italic;
+  font-style: bold;
 }
 
 article p {
   margin-left: 20pt;
 }
 
-aside {
+aside {display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
+}
   display: inline-block;
   width: 40%;
 }
 
 aside h2 {
+  font-size: 16pt;
+}
   
 }
 
 .quotation p {
   font-style: italic;
 }
+footer {
+  border-top: 1pt solid;
+}
 
+footer p {
+  font-size: 12pt;
+  text-align: right;
+}
 
